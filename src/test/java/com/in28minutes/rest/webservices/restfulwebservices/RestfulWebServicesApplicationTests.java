@@ -11,7 +11,6 @@ public class RestfulWebServicesApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		System.out.println("testing");
 	}
 
 }
