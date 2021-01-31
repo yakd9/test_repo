@@ -9,6 +9,7 @@ public class HelloWorldController {
 	@GetMapping(path = "/")
 	public String helloWorld() {
 		//test comment
+		System.out.println("hello");
 		return "{\"message\":\"Hello World Java v1\"}";
 	}
 }
