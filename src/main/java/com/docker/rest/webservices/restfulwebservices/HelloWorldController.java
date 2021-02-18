@@ -10,6 +10,7 @@ public class HelloWorldController {
 	public String helloWorld() {
 		//test comment
 		System.out.println("hello");
+		System.out.println("test");
 		return "{\"message\":\"Hello World Java v1\"}";
 	}
 }
