@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def gv
 
 pipeline {
@@ -42,3 +43,24 @@ pipeline {
         }
     }   
 }
+=======
+pipeline {
+    agent any 
+    stages {
+        stage('Build') { 
+            steps {
+               echo "build start"
+            }
+        }
+        stage('Test') { 
+            steps {
+                echo "  test start"
+        }
+        stage('Deploy') { 
+            steps {
+                 echo "Deploy start"
+            }
+        }
+    }
+}
+>>>>>>> 9d2eebd03749a47e3be03262e52fa897dcdc8c75
